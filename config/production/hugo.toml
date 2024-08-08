@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Yoru Karu Studio'
+theme = 'FixIt'
+[permalinks]
+content = "/:year/:month/:day/:slug/"
+
+[params]
+  [params.author]
+    name = "luk"
+    email = "lalalalaluk@gmail.com"
+    link = ""
+    avatar = ""
+
+[mediaTypes]
+  _merge = "shallow"
+
+[outputFormats]
+  _merge = "shallow"
+
+[outputs]
+  _merge = "shallow"
